@@ -3,49 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JerryShop</title>
+    <title>Jugadores de Fútbol</title>
+    <style>
+        body {
+            background: linear-gradient(to right, lightblue, lightgreen);
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6347; /* Tomate */
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .column {
+            width: 30%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .column img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>JerryShop</h1>
-        <nav>
-            <ul>
-                <li><a href="#categoria">Categoría</a></li>
-                <li><a href="#historia">Historia</a></li>
-                <li><a href="#consejos">Consejos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="categoria">
-            <h2>Categoría</h2>
-            <div>
-                <h3>Producto 1</h3>
-                <img src="ruta/de/la/imagen1.jpg" alt="Descripción del Producto 1">
-                <p>Descripción del Producto 1.</p>
-            </div>
-            <div>
-                <h3>Producto 2</h3>
-                <img src="ruta/de/la/imagen2.jpg" alt="Descripción del Producto 2">
-                <p>Descripción del Producto 2.</p>
-            </div>
-            <!-- Añade más productos según sea necesario -->
-        </section>
-        
-        <section id="historia">
-            <h2>Historia</h2>
-            <p>Aquí va la historia de JerryShop.</p>
-        </section>
-        
-        <section id="consejos">
-            <h2>Consejos</h2>
-            <p>Aquí van los consejos para los clientes de JerryShop.</p>
-        </section>
-    </main>
-    
+    <h1>Jugadores de Fútbol</h1>
+    <div class="container">
+        <div class="column">
+            <img src="https://example.com/messi.jpg" alt="Lionel Messi">
+            <p>Lionel Messi es un futbolista argentino considerado uno de los mejores jugadores de todos los tiempos.</p>
+        </div>
+        <div class="column">
+            <img src="https://example.com/ronaldo.jpg" alt="Cristiano Ronaldo">
+            <p>Cristiano Ronaldo es un futbolista portugués conocido por su habilidad y logros en el fútbol mundial.</p>
+        </div>
+        <div class="column">
+            <img src="https://example.com/james.jpg" alt="James Rodríguez">
+            <p>James Rodríguez es un futbolista colombiano famoso por su talento y precisión en el campo.</p>
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 JerryShop. Todos los derechos reservados.</p>
+        <p>Tienda Jerry Shop - Donde encuentras todo</p>
     </footer>
 </body>
 </html>
