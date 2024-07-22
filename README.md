@@ -6,11 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Cifrador Juanda</title>
+    <title>Jerry Shop</title>
 </head>
 <body>
     <main>
->      <h1>Cifrador Juanda</h1>
+>      <h1>Jerry Shop</h1>
     <form id="cifrador" autocomplete="off">
        <input id="input original" spellcheck="false" placeholder="Ingrese el texto " type="text" name="text">
     </form>
