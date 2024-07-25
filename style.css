@@ -220,6 +220,10 @@ body {
     color: #ffffff
 }
 
+.tabs input[type="radio"]:checked+label+.tab {
+    display: block;
+}
+
 .product {
     display: flex;
     align-items: center;
